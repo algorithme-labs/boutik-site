@@ -25,43 +25,84 @@
 <body>
 
 <h1>Boutik — Politique de confidentialité</h1>
-<p class="muted">Dernière mise à jour : 7 juillet 2026 · <a href="#en">English version below</a></p>
+<p class="muted">Dernière mise à jour : 12 juillet 2026 · <a href="#en">English version below</a></p>
 
-<p><strong>Boutik ne collecte aucune donnée.</strong> L'application fonctionne
-entièrement hors-ligne, sans compte, sans serveur et sans suivi.</p>
+<p><strong>Boutik fonctionne d'abord hors-ligne.</strong> Sans compte, rien ne
+quitte votre téléphone. Le compte (facultatif) et la « Boutique en ligne »
+(sauvegarde et synchronisation entre vos téléphones) sont des services que
+vous activez vous-même : cette page décrit exactement ce qu'ils traitent.</p>
 
-<h2>Vos données restent sur votre téléphone</h2>
+<h2>Sans compte : tout reste sur votre téléphone</h2>
 <p>Tout ce que vous saisissez dans Boutik — produits, stock, ventes,
 précommandes, crédits, prix d'achat, photos, nom de la boutique — est stocké
-uniquement dans une base de données locale, sur votre appareil. Rien n'est
-transmis à l'éditeur ni à des tiers. Aucune connexion Internet n'est requise
-ni utilisée par l'application.</p>
+dans une base de données locale, sur votre appareil. Rien n'est transmis à
+l'éditeur ni à des tiers. L'application fonctionne sans connexion Internet.</p>
 
-<h2>Sauvegardes</h2>
+<h2>Avec un compte (facultatif)</h2>
+<p>Le compte sert à protéger votre pass et à retrouver vos données si vous
+changez de téléphone. Il est identifié par votre <strong>numéro de téléphone
+WhatsApp</strong>. Nous traitons alors, pour fournir le service et rien
+d'autre :</p>
+<p>— votre numéro (identifiant du compte, vérifié par code WhatsApp) ;<br>
+— le nom d'affichage que vous choisissez (facultatif, montré uniquement pour
+confirmer un paiement si vous activez la visibilité) ;<br>
+— l'historique de vos pass et paiements (montant, date, référence de
+l'opérateur — <strong>jamais</strong> vos données de carte ou de mobile money,
+qui sont traitées par FedaPay, Apple ou Google) ;<br>
+— vos appareils connectés (plateforme, version de l'app, dernière activité) ;<br>
+— un jeton technique de notifications si vous les acceptez.</p>
+
+<h2>Boutique en ligne : sauvegarde et synchronisation</h2>
+<p>Si vous l'activez, les données de votre boutique (produits, stock, ventes,
+engagements clients, photos) sont <strong>sauvegardées sur nos serveurs</strong>
+pour être restaurées sur un nouveau téléphone et partagées entre vos appareils.
+Elles sont chiffrées en transit (TLS) et hébergées dans l'Union européenne
+(Railway, sauvegardes quotidiennes). Il n'y a pas de chiffrement de bout en
+bout : c'est ce qui permet de restaurer vos données sans mot de passe perdu.
+En échange, engagement clair : <strong>l'éditeur n'ouvre jamais le contenu de
+votre boutique</strong> — nos outils internes n'affichent que des compteurs
+(taille, nombre d'appareils, dernière activité). Vous pouvez désactiver la
+sauvegarde à tout moment dans Réglages.</p>
+
+<h2>Messages WhatsApp</h2>
+<p>Le numéro du compte reçoit par WhatsApp (via Twilio) les messages liés au
+service : codes de vérification, confirmations de pass, rappels d'échéance.
+Les rappels se désactivent à tout moment en répondant <strong>STOP</strong>.</p>
+
+<h2>Sauvegardes manuelles</h2>
 <p>Vous pouvez exporter une sauvegarde (fichier .zip contenant vos données et
 vos photos). Cette exportation est déclenchée uniquement par vous, et c'est
 vous qui choisissez où l'envoyer (par exemple WhatsApp, Google Drive ou un
 e-mail). Le fichier n'est pas chiffré : traitez-le comme un document
-confidentiel. L'éditeur n'y a jamais accès.</p>
+confidentiel.</p>
 
 <h2>Autorisations utilisées</h2>
 <p><strong>Caméra</strong> : uniquement pour scanner les QR codes et
 codes-barres de vos articles, et pour photographier vos produits si vous le
-souhaitez. Aucune image n'est transmise.<br>
-<strong>Photos</strong> : uniquement pour choisir une image de produit. La
-copie reste locale.<br>
+souhaitez.<br>
+<strong>Photos</strong> : uniquement pour choisir une image de produit.<br>
+<strong>Notifications</strong> : uniquement si vous les acceptez (rappels,
+synchronisation entre vos appareils).<br>
 <strong>Face ID / Touch ID / code</strong> : uniquement pour verrouiller
 l'accès à l'application et à la page Bénéfices. La vérification est effectuée
 par le système ; Boutik ne voit ni ne stocke vos données biométriques.</p>
 
-<h2>Suppression des données</h2>
-<p>Supprimer l'application supprime toutes ses données de l'appareil (à
-l'exception des sauvegardes que vous auriez exportées vous-même).</p>
+<h2>Conservation et suppression</h2>
+<p>La suppression du compte s'effectue depuis l'application (Réglages →
+Gérer le compte). Elle rend immédiatement inaccessibles les données de
+sauvegarde en ligne, qui sont définitivement purgées sous 30 jours ; le
+numéro de téléphone est anonymisé. Sans compte, supprimer l'application
+supprime toutes ses données de l'appareil (à l'exception des sauvegardes que
+vous auriez exportées vous-même).</p>
+
+<h2>Vos droits</h2>
+<p>Vous pouvez accéder à vos données, les corriger, les exporter (export .zip
+intégral depuis l'application) et les supprimer. Pour toute demande :
+<a href="mailto:contact@algorithme.services">contact@algorithme.services</a>.</p>
 
 <h2>Enfants</h2>
 <p>Boutik est un outil professionnel de gestion de boutique et ne s'adresse
-pas aux enfants. L'application ne collectant aucune donnée, aucune donnée
-d'enfant ne peut être collectée.</p>
+pas aux enfants.</p>
 
 <h2>Rapports d'incident (diagnostics)</h2>
 <p>Pour améliorer la stabilité, l'application peut envoyer un rapport
@@ -69,8 +110,7 @@ technique anonyme en cas de plantage (via Sentry, hébergé dans l'Union
 européenne) : type d'erreur, modèle d'appareil, version du système et de
 l'application. Ces rapports ne contiennent <strong>ni vos données de
 boutique, ni votre identité</strong>, ne sont pas reliés à vous et ne servent
-à aucun suivi publicitaire. C'est la seule communication réseau de
-l'application.</p>
+à aucun suivi publicitaire.</p>
 
 <h2>Contact</h2>
 <p>Éditeur : Algorithme — <a href="https://algorithme.services">algorithme.services</a><br>
@@ -79,46 +119,86 @@ Questions sur la confidentialité : <a href="mailto:contact@algorithme.services"
 <hr id="en">
 
 <h1>Boutik — Privacy Policy</h1>
-<p class="muted">Last updated: July 7, 2026</p>
+<p class="muted">Last updated: July 12, 2026</p>
 
-<p><strong>Boutik does not collect any data.</strong> The app works entirely
-offline, with no account, no server and no tracking.</p>
+<p><strong>Boutik is offline-first.</strong> Without an account, nothing
+leaves your phone. The optional account and the "Online shop" service (backup
+and sync across your phones) are features you enable yourself: this page
+describes exactly what they process.</p>
 
-<h2>Your data stays on your phone</h2>
+<h2>Without an account: everything stays on your phone</h2>
 <p>Everything you enter in Boutik — products, stock, sales, preorders,
-credits, purchase prices, photos, shop name — is stored only in a local
-database on your device. Nothing is sent to the publisher or to third
-parties. The app neither requires nor uses an Internet connection.</p>
+credits, purchase prices, photos, shop name — is stored in a local database
+on your device. Nothing is sent to the publisher or to third parties. The app
+works without an Internet connection.</p>
 
-<h2>Backups</h2>
+<h2>With an account (optional)</h2>
+<p>The account protects your pass and lets you recover your data on a new
+phone. It is identified by your <strong>WhatsApp phone number</strong>. We
+then process, to provide the service and nothing else:</p>
+<p>— your number (account identifier, verified by a WhatsApp code);<br>
+— the display name you choose (optional, shown only to confirm a payment if
+you enable visibility);<br>
+— your pass and payment history (amount, date, operator reference —
+<strong>never</strong> your card or mobile-money details, which are handled
+by FedaPay, Apple or Google);<br>
+— your connected devices (platform, app version, last activity);<br>
+— a technical notification token if you accept notifications.</p>
+
+<h2>Online shop: backup and sync</h2>
+<p>If you enable it, your shop data (products, stock, sales, customer
+commitments, photos) is <strong>backed up on our servers</strong> so it can
+be restored on a new phone and shared across your devices. It is encrypted in
+transit (TLS) and hosted in the European Union (Railway, daily backups).
+There is no end-to-end encryption: that is what makes recovery possible
+without a lost password. In exchange, a clear commitment: <strong>the
+publisher never opens the content of your shop</strong> — our internal tools
+only show counters (size, device count, last activity). You can disable the
+backup at any time in Settings.</p>
+
+<h2>WhatsApp messages</h2>
+<p>The account number receives service messages over WhatsApp (via Twilio):
+verification codes, pass confirmations, expiry reminders. Reminders can be
+turned off at any time by replying <strong>STOP</strong>.</p>
+
+<h2>Manual backups</h2>
 <p>You can export a backup (a .zip file containing your data and photos).
 This export is triggered only by you, and you choose where to send it (for
 example WhatsApp, Google Drive or email). The file is not encrypted: treat it
-as a confidential document. The publisher never has access to it.</p>
+as a confidential document.</p>
 
 <h2>Permissions</h2>
 <p><strong>Camera</strong>: only to scan your items' QR codes and barcodes,
-and to photograph your products if you wish. No image is transmitted.<br>
-<strong>Photos</strong>: only to pick a product image. The copy stays local.<br>
+and to photograph your products if you wish.<br>
+<strong>Photos</strong>: only to pick a product image.<br>
+<strong>Notifications</strong>: only if you accept them (reminders, sync
+across your devices).<br>
 <strong>Face ID / Touch ID / passcode</strong>: only to lock access to the
 app and to the Profit page. Verification is performed by the system; Boutik
 never sees or stores your biometric data.</p>
 
-<h2>Data deletion</h2>
-<p>Deleting the app deletes all of its data from the device (except backups
-you exported yourself).</p>
+<h2>Retention and deletion</h2>
+<p>Account deletion is done from the app (Settings → Manage account). It
+immediately makes the online backup inaccessible; the data is permanently
+purged within 30 days and the phone number is anonymized. Without an account,
+deleting the app deletes all of its data from the device (except backups you
+exported yourself).</p>
+
+<h2>Your rights</h2>
+<p>You can access, correct, export (full .zip export from the app) and delete
+your data. For any request:
+<a href="mailto:contact@algorithme.services">contact@algorithme.services</a>.</p>
 
 <h2>Children</h2>
 <p>Boutik is a professional shop-management tool and is not directed at
-children. Since the app collects no data, no children's data can be
-collected.</p>
+children.</p>
 
 <h2>Crash reports (diagnostics)</h2>
 <p>To improve stability, the app may send an anonymous technical report when
 it crashes (via Sentry, hosted in the European Union): error type, device
 model, OS and app version. These reports contain <strong>neither your shop
 data nor your identity</strong>, are not linked to you and are never used for
-advertising or tracking. This is the app's only network communication.</p>
+advertising or tracking.</p>
 
 <h2>Contact</h2>
 <p>Publisher: Algorithme — <a href="https://algorithme.services">algorithme.services</a><br>
